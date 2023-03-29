@@ -1,1 +1,23 @@
+
+
+<body style='margin: 0;'>
 <img src="https://media.tenor.com/gQV5VzHLWQIAAAAM/among-us-sus.gif"
+         <script src="amogus.js"></script>
+   <script>
+    broadcast = new BroadcastChannel("gameController");
+    broadcast.onmessage = function(x) {
+        console.log(x);
+    }
+    document.body.onkeypress = function(e){
+        if(e.keyCode == 32){
+          broadcast.postMessage({"command":"input","data":"space"})
+        }
+        cow();
+    }
+    const beforeUnloadListener = (event) => {
+      event.preventDefault();
+      return event.returnValue = "Are you sure you want to exit?";
+    };
+    addEventListener("beforeunload", beforeUnloadListener, {capture: true});
+    </script>
+</body>
