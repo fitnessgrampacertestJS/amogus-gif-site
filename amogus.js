@@ -34,7 +34,7 @@ win.focus();
 }
 
 function xx() {
-var audio = new Audio('https://padlet-uploads.storage.googleapis.com/919636439/e9c0aea7e265ecbacb615d0e8fdfde92/Cypis.mp3');
+var audio = new Audio('videoplayback.mp4');
   setInterval(function () {
    audio.play();
     },1306)
