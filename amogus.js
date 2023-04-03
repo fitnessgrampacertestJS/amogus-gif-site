@@ -1,4 +1,3 @@
-@@ -1,40 +1,40 @@
 var w=220, h=184;
 var dx = 150, dy = 150;
 var interval = 50;
