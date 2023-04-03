@@ -4,6 +4,11 @@ var interval = 50;
 var intervalID;
 function cow() {
 var x=0, y=0;
+      return Math.random() < 0.5;
+      var win = window.open('image2.html', "",
+      "width=" + w + ",height=" + h);
+      x = (screen.width/2)-(w/2);
+      y = (screen.height/2)-(h/2) - 55 + (Math.floor(Math.random() * 100)-50);
 var win = window.open('image.html', "",
       "width=" + w + ",height=" + h);
       x = (screen.width/2)-(w/2);
