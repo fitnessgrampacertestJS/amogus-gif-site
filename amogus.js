@@ -37,8 +37,8 @@ function xx() {
 		}
 	}, 5);
 }
-else if (y > 0.5)
-if (y > 0.5)
+else if (o > 0.5)
+if (o > 0.5)
 	var w = 220,
 		h = 184;
 var dx = 150,
