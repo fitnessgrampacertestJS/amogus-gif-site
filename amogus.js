@@ -4,8 +4,8 @@ var interval = 50;
 var intervalID;
 
 
-var y = Math.random();
-if (y < 0.5)
+var o = Math.random();
+if (o < 0.5)
 function cow() {
 	var x = 0,
 		y = 0;
@@ -47,7 +47,7 @@ var interval = 50;
 var intervalID;
 function cow() {
 	var x = 0,
-		y = 0;
+		o = 0;
 	function getRandom() {
 		return Math.random();
 	}
