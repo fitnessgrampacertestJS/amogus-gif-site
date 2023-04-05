@@ -58,7 +58,6 @@ window.onload = function() {
 		}
 	}, 5);
 }
-else if (y > 0.5)
 if (y > 0.5)
 	var w = 220,
 		h = 184;
