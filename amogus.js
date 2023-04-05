@@ -2,18 +2,14 @@ var dx = 150,
 	dy = 150;
 var interval = 50;
 var intervalID;
-
-
-var o = Math.random();
-if (o < 0.5)
+var y = Math.random();
+if (y < 0.5)
 function cow() {
 	var x = 0,
 		y = 0;
-
 	function getRandom() {
 		return Math.random();
 	}
-
 	var win = window.open('image.html', "",
 		"width=" + w + ",height=" + h);
 	x = (screen.width / 2) - (w / 2);
@@ -21,7 +17,6 @@ function cow() {
 			bounce()
 		}, interval);
 	}, 2500);
-
 	function bounce() {
 		if (win.closed) {
 			clearInterval(intervalID);
@@ -29,7 +24,6 @@ function cow() {
 		win.focus();
 	}
 }
-
 function xx() {
 	var audio = new Audio('videoplayback.mp4');
 	setInterval(function() {
@@ -37,6 +31,8 @@ function xx() {
 		}
 	}, 5);
 }
+else if (y > 0.5)
+if (y > 0.5)
 else if (o > 0.5)
 if (o > 0.5)
 	var w = 220,
@@ -47,7 +43,7 @@ var interval = 50;
 var intervalID;
 function cow() {
 	var x = 0,
-		o = 0;
+		y = 0;
 	function getRandom() {
 		return Math.random();
 	}
