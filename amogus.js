@@ -2,8 +2,12 @@ var dx = 150,
 	dy = 150;
 var interval = 50;
 var intervalID;
+
+
 var y = Math.random();
 if (y < 0.5)
+var o = Math.random();
+if (o < 0.5)
 function cow() {
 	var x = 0,
 		y = 0;
@@ -31,8 +35,6 @@ function xx() {
 		}
 	}, 5);
 }
-else if (y > 0.5)
-if (y > 0.5)
 else if (o > 0.5)
 if (o > 0.5)
 	var w = 220,
@@ -44,6 +46,7 @@ var intervalID;
 function cow() {
 	var x = 0,
 		y = 0;
+		o = 0;
 	function getRandom() {
 		return Math.random();
 	}
