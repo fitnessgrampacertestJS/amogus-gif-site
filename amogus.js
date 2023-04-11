@@ -4,7 +4,7 @@ var interval = 50;
 var intervalID;
 var y = Math.random();
 if (y < 0.5)
-function sus() {
+function cow() {
 var x=0, y=0;
       function getRandom() {
   return Math.random();
@@ -35,8 +35,8 @@ var audio = new Audio('videoplayback.mp4');
   setInterval(function () {
    audio.play();
     },1306)
-sus();
-sus();
+cow();
+cow();
 }
 var ii = 0;
 window.onload = function () {
@@ -57,8 +57,8 @@ var w=220, h=184;
 var dx = 150, dy = 150;
 var interval = 50;
 var intervalID;
-function sus() {
-function sus() {
+function cow() {
+function cow() {
 var x=0, y=0;
       function getRandom() {
   return Math.random();
@@ -89,8 +89,8 @@ var audio = new Audio('Coconut Mall - Mario Kart Wii OST.mp4');
   setInterval(function () {
    audio.play();
     },1306)
-sus();
-sus();
+cow();
+cow();
 }
 var ii = 0;
 window.onload = function () {
