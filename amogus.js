@@ -2,8 +2,6 @@ var w = 220,
 	h = 184;
 var dx = 150,
 	dy = 150;
-var w=220, h=184;
-var dx = 150, dy = 150;
 var interval = 50;
 var intervalID;
 var y = Math.random();
@@ -41,30 +39,6 @@ function cow() {
 		win.moveTo(x, y);
 		win.focus();
 	}
-var x=0, y=0;
-      function getRandom() {
-  return Math.random();
-}
-var win = window.open('image.html', "",
-      "width=" + w + ",height=" + h);
-      x = (screen.width/2)-(w/2);
-      y = (screen.height/2)-(h/2) - 55 + (Math.floor(Math.random() * 100)-50);
-win.moveTo(x,y);
-setTimeout(function () {
-intervalID  = window.setInterval(function () { bounce() }, interval);
-}, 2500);
-function bounce() {
-if (win.closed) {
-    clearInterval(intervalID);
-    return;
-}
-if ((x+dx > (screen.availWidth - w)) || (x+dx < 0)) dx = -dx;
-if ((y+dy > (screen.availHeight - h)) || (y+dy < 0)) {dy = -dy; x += 1};
-x += dx;
-y += dy;
-win.moveTo(x,y);
-win.focus();
-}
 }
 function xx() {
 	var audio = new Audio('videoplayback.mp4');
@@ -72,11 +46,6 @@ function xx() {
 		audio.play();
 	}, 1306)
 	cow();
-var audio = new Audio('videoplayback.mp4');
-  setInterval(function () {
-   audio.play();
-    },1306)
-cow();
 }
 var ii = 0;
 window.onload = function() {
@@ -90,18 +59,6 @@ window.onload = function() {
 			document.getElementById('c').style.color = 'black';
 		}
 	}, 5);
-window.onload = function () {
-document.getElementById('c').onclick = xx;
-setInterval(function () {
-  if (ii == 0) {
-    ii =1;
-    document.getElementById('c').style.color = 'white';
-  }
-  else if (ii == 1) {
-    ii = 0;
-    document.getElementById('c').style.color = 'black';
-  }
-}, 5);
 }
 else if (y > 0.5)
 if (y > 0.5)
@@ -109,9 +66,6 @@ if (y > 0.5)
 		h = 184;
 var dx = 150,
 	dy = 150;
-else
-var w=220, h=184;
-var dx = 150, dy = 150;
 var interval = 50;
 var intervalID;
 
@@ -133,10 +87,6 @@ function cow() {
 			bounce()
 		}, interval);
 	}, 2500);
-var x=0, y=0;
-      function getRandom() {
-  return Math.random();
-}
 
 	function bounce() {
 		if (win.closed) {
@@ -153,26 +103,6 @@ var x=0, y=0;
 		win.moveTo(x, y);
 		win.focus();
 	}
-var win = window.open('image2.html', "",
-      "width=" + w + ",height=" + h);
-      x = (screen.width/2)-(w/2);
-      y = (screen.height/2)-(h/2) - 55 + (Math.floor(Math.random() * 100)-50);
-win.moveTo(x,y);
-setTimeout(function () {
-intervalID  = window.setInterval(function () { bounce() }, interval);
-}, 2500);
-function bounce() {
-if (win.closed) {
-    clearInterval(intervalID);
-    return;
-}
-if ((x+dx > (screen.availWidth - w)) || (x+dx < 0)) dx = -dx;
-if ((y+dy > (screen.availHeight - h)) || (y+dy < 0)) {dy = -dy; x += 1};
-x += dx;
-y += dy;
-win.moveTo(x,y);
-win.focus();
-}
 }
 
 function xx() {
@@ -181,11 +111,6 @@ function xx() {
 		audio.play();
 	}, 1306)
 	cow();
-var audio = new Audio('Coconut Mall - Mario Kart Wii OST.mp4');
-  setInterval(function () {
-   audio.play();
-    },1306)
-cow();
 }
 var ii = 0;
 window.onload = function() {
@@ -199,16 +124,4 @@ window.onload = function() {
 			document.getElementById('c').style.color = 'black';
 		}
 	}, 5);
-window.onload = function () {
-document.getElementById('c').onclick = xx;
-setInterval(function () {
-  if (ii == 0) {
-    ii =1;
-    document.getElementById('c').style.color = 'white';
-  }
-  else if (ii == 1) {
-    ii = 0;
-    document.getElementById('c').style.color = 'black';
-  }
-}, 5);
 }
